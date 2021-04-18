@@ -19,4 +19,8 @@
         <link rel="stylesheet" type="text/css" href="<?= $redirect; ?>css/DataTables/datatables.min.css"/>
 
         <link href="<?= $redirect; ?>css/styles.css" rel="stylesheet" />
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css">
+
+        
 </head>

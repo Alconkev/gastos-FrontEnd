@@ -79,7 +79,7 @@ $page = 'inicio';
                                             <td>
                                             <span class="badge badge-success"><?=$value['total']?></span>
                                             </td>
-                                            <td><a href="form/edit.php?id=<?=$value['id']?>" class="btn btn-info">Ver <i class="fa fa-edit"></i></a></td>
+                                            <td><a href="form/form.php?id=<?=$value['id']?>" class="btn btn-info">Ver <i class="fa fa-edit"></i></a></td>
                                         </tr>
                                         <?php }  ?>
                                     </tbody>

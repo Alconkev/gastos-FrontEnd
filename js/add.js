@@ -39,7 +39,7 @@ $(function() {
             detalle.fecha = $('#dtfecha').val();
             detalle.cuenta = $('#dtCuenta').val();
             detalle.descripcion = $('#dtDescripcion').val();
-            detalle.total = parseFloat($('#dtTotal').val());
+            detalle.total = parseFloat($('#dtTotal').val()).toFixed(2);
             detalle.newid = newid;
 
             var existe =false;

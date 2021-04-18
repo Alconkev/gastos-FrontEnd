@@ -22,7 +22,7 @@
         $datos = array(
             "concepto" => $_POST['concepto'],
             "fechadesde" => $_POST['desde'],
-            "fechahasta" => $_POST['desde'],
+            "fechahasta" => $_POST['hasta'],
             "nombre" => $_POST['nombre'],
             "departamento" => $_POST['departamento'],
             "posicion"=> $_POST['posicion'],

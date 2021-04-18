@@ -16,7 +16,7 @@ class ApiGasto{
 
     function getGastoById($id){
 		$parameter = array();
-        $result = json_decode($this->httpGet(URL.'/getGastoById\/'.$id,$parameter),true);
+        $result = json_decode($this->httpGet(URL.'/'.$id,$parameter),true);
         return $result;
 	}
 
