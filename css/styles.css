@@ -1,0 +1,13 @@
+#pagina{
+    margin-top: 200px;
+}
+.resultados{
+    margin-top: 10px;
+}
+
+a{
+    color: #fff;
+}
+a:hover{
+    color: #000;
+}
